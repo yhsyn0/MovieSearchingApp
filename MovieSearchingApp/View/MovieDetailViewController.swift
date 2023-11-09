@@ -13,13 +13,13 @@ class MovieDetailViewController: UIViewController {
     let movieDetail: MovieDetail
     
     private let imageView = UIImageView()
-    
-    private let titleLabel = UILabel()
-    private let yearLabel = UILabel()
-    private let actorsLabel = UILabel()
-    private let countryLabel = UILabel()
-    private let directorLabel = UILabel()
-    private let imdbRatingLabel = UILabel()
+    // Removing priavte keyword for testing
+    let titleLabel = UILabel()
+    let yearLabel = UILabel()
+    let actorsLabel = UILabel()
+    let countryLabel = UILabel()
+    let directorLabel = UILabel()
+    let imdbRatingLabel = UILabel()
     
     init(movieDetail: MovieDetail) {
         self.movieDetail = movieDetail
